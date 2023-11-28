@@ -1,0 +1,164 @@
+/* dolna czesc konteneru
+		Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
+		*/
+
+*{
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	height: 900px;
+	background: linear-gradient(to right,#bdc3c7,#95a5a6,#7f8c8d);
+}
+a
+{
+	color: white;
+	text-decoration: none;
+	border-bottom: 1px gray;
+}
+a:hover
+{
+	color: #06376C;
+}
+.tytul{
+	font-weight: bold;
+}
+/*	KONTENER	*/
+#kontener{
+	width: 1004px;
+	margin: 0 auto;
+}
+
+#gorna_czesc_kontenera{
+	position: relative;
+	margin-top: 15px;
+	border: solid 1px white;
+	background-color: #7f8c8d;
+	width: 1144px;
+	height: 173px;
+}
+#witam{
+	position: absolute;
+	left: 190px;
+	top: 15px;
+	color: black;
+	font-family: Copse;
+	font-size: 35px;
+}
+#piwiarni{
+	color: #FFC600;
+	text-decoration: underline;
+
+}
+#w_heading{
+	font-size: 25px;
+}
+#v2{
+	display: inline-block;
+	position: relative;
+	bottom: 5px;
+	transform: rotate(7deg);
+}
+img.logo{
+	position: absolute;
+	border: 0;
+	width: 90px;
+	height: 90px;
+	left: 20px;
+	top: 22px;
+	filter: contrast(80%) saturate(250%);		
+}
+/*	KONTAKT BOX ------------------------------------------------	*/
+#kontakt_box{
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	font-family: 'Lato', sans-serif;
+	line-height: 125%;
+	background-color: #7C8383;
+	height: 173px;
+	width: 220px;
+	filter: opacity(100%);
+	text-align: left;
+}
+#kontaktDaneBlok{
+	position: absolute;
+	left: 50px;
+	top: 6px;
+}
+#kontakt_box a
+{
+	border-bottom: none;
+	font-size: 12px;
+}
+#kontakt_box_pasek{
+	position:absolute;
+	height: 173px;
+	width: 20px;
+	right: 190px;
+	background: linear-gradient(#EFEFEF, #2E2121);
+}
+
+/*	GÓRNE MENU----------------------------------------------------------	*/
+#gorne_menu_div{
+	position: absolute;
+	left: 0px;
+	bottom: -1px;	
+}
+#gorne_menu_ul li{
+	list-style-type: none;
+	float: left;
+	border-right: 6px solid #2E2121;
+
+}
+#gorne_menu_ul li a{
+	background-image: url("pictures/srodek_menu_gornego.gif");
+	height: 31px;
+	display: inline-block;
+	float: left;
+	padding: 0 115px;
+	font-family: 'Noto Sans JP', sans-serif;
+	font-weight: bold;
+}
+#gorne_menu_ul li a:hover, #gorne_menu_ul li.aktualna a{
+	background-image: url("pictures/srodek_menu_gornego_hover.gif");
+	color: #CCCCCC;
+}
+span.link{
+	display: inline-block;
+	margin-top: 2px;
+}
+/*	ŚRODKOWE MENU MENU----------------------------------------------------------	*/
+
+#srodkowe_menu{
+	
+	background-image: url("pictures/srodkowe_menu.gif");
+	width: 1144px;
+	height: 32px;
+}
+#srodkowe_menu li{
+	list-style-type: none;
+	float: left;
+}
+#srodkowe_menu li a{
+	font-size: 14px;
+	font-family: 'Noto Sans JP', sans-serif;
+	font-weight: bold;
+	font-style: italic;
+}
+#srodkowe_menu li span.link2{
+	display: block;
+	margin-top: 5px;
+}
+#pierwszy_poziom{
+	margin-left: 200px;
+}
+#srodkowe_menu span.odstep{
+	display: inline-block;
+	margin: 5px 50px 5px 50px;
+	color: #ffffff;
+}
+#srodkowe_menu li a:hover{
+	color: red;
+}
